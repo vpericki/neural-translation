@@ -1,0 +1,20 @@
+[
+    {
+        "ends_with_consonant": 1,    
+        "percentage_vowels": 0.4,    
+        "percentage_consonants": 0.6,
+        "ascii_sum": 535,
+        "length": 5,
+        "species": "tigar",
+        "translation": "tigar"
+    },
+    {
+        "ends_with_consonant": 1,
+        "percentage_vowels": 0.3333333333333333,    
+        "percentage_consonants": 0.6666666666666667,
+        "ascii_sum": 323,
+        "length": 3,
+        "species": "lav",
+        "translation": "lav"
+      }
+]

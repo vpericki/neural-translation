@@ -1,0 +1,29 @@
+[
+      {
+        "ends_with_consonant": 1,
+        "percentage_vowels": 0.4,
+        "percentage_consonants": 0.6,
+        "ascii_sum": 539,
+        "length": 5,
+        "species": "tiger",
+        "translation": "tigar"
+      },
+      {
+        "ends_with_consonant": 1,
+        "percentage_vowels": 0,
+        "percentage_consonants": 1,
+        "ascii_sum": 690,
+        "length": 6,
+        "species": "tygrys",
+        "translation": "tigar"
+      },
+      {
+        "ends_with_consonant": 1,
+        "percentage_vowels": 0.5,
+        "percentage_consonants": 0.5,
+        "ascii_sum": 434,
+        "length": 4,
+        "species": "lion",
+        "translation": "lav"
+      }
+]
