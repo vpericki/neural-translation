@@ -16,7 +16,7 @@ app.use(cors());
 
 async function predict(wordObject) {
 
-    loadedModel = await tf.loadLayersModel('https://https://neural-zoo.herokuapp.com/trained/model.json');
+    loadedModel = await tf.loadLayersModel('https://neural-zoo.herokuapp.com/trained/model.json');
 
     let array = [];
     array.push(wordObject);

@@ -16,7 +16,7 @@ app.use(cors());
 
 async function predict(wordObject) {
 
-    loadedModel = await tf.loadLayersModel('http://localhost:8000/trained/model.json');
+    loadedModel = await tf.loadLayersModel(`http://localhost:${port}/trained/model.json`);
 
     let array = [];
     array.push(wordObject);
