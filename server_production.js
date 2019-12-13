@@ -8,6 +8,9 @@ let translate = require('@vitalets/google-translate-api');
 let testingWordGenerator = require('./js/word-object-generator');
 let syncPromise = require('synchronous-promise');
 
+let port = process.env.PORT || 8000;
+
+
 app.use(express.static('./static'));
 app.use(cors());
 
@@ -97,7 +100,7 @@ app.get('/requestPredict', (req, res) => {
     
 });
 
-let server = app.listen(8000, function () {
+let server = app.listen(port, function () {
 
     let host = server.address().address;
     let port = server.address().port;

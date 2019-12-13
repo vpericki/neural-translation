@@ -9,6 +9,8 @@ let testingWordGenerator = require('./js/word-object-generator');
 let syncPromise = require('synchronous-promise');
 
 let port = process.env.PORT || 8000;
+
+
 app.use(express.static('./static'));
 app.use(cors());
 
