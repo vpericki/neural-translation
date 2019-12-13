@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Neural ZOO</title>
+
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/scripts.js"></script>
+</head>
+
+<body>
+
+    <div class="background" id = "background">
+        <main class="container">
+            <div class="center">
+                <h1> Neural ZOO </h1>
+
+                <div class="row">
+                    <div class="col s6 m6">
+                        <p>Trenutni jezici:</p>
+                        <ul>
+                            <li>Hrvatski</li>
+                            <li>Engleski</li>
+                            <li>Francuski</li>
+                            <li>Poljski</li>
+                            <li>Češki</li>
+                            <li>Njemački</li>
+                        </ul>
+
+                    </div>
+                    <div class="col s6 m6">
+                        <p>Riječi:</p>
+                        <ul>
+                            <li>Tigar</li>
+                            <li>Lav</li>
+                            <li>Kornjača</li>
+                            <li>Žirafa</li>
+                            <li>Polarni medvjed</li>
+                            <li>Pingvin</li>
+                            <li>Slon</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <input type="text" id="word" required>
+                    <a class="waves-effect waves-light btn-large" onclick="fetchResult()">Click me!</a>
+
+                </div>
+
+                <div class="row">
+                    <h2 id="wordResult">Enter a word</h2>
+                </div>
+
+            </div>
+
+
+        </main>
+
+    </div>
+
+
+
+</body>
+
+</html>
